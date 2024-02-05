@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.nav{
+    display: flex;align-items: center;justify-content: space-between;
+    height: 10%;
+    width:100%;
+    color: #C45508;
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 1.7vh;
+    padding: 0 7vh;
+    top: 0;z-index: 10;
+}
+.front-page{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://cdn.sanity.io/images/sjvffa0f/production/b66561b8981387290c0f682665512759c66aa7bb-2880x1796.png/image.png?bg=F2F1EC&w=1440&h=898&auto=format');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-transform: uppercase;
+    padding: calc(100vh - 160px) 0 0 0;
+}
+.front-page h1{
+    font-size: 130px;
+    /* padding: 5px; */
+    color: #C45508;
+    text-align: center;
+}
